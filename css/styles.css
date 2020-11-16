@@ -1,9 +1,9 @@
 body {
   font-family: serif;
   background: url("../images/bg0.jpg") center center fixed;
-  text-shadow: 1px 1px 1px #000; }
-  body .cover-heading {
+  text-shadow: 1px 1px 1px  #000; }
+  body .hdng {
     font-size: 5rem; }
-  body .msg {
+  body .para {
     color: red;
     font-size: 2rem; }
