@@ -1,44 +1,72 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 7, Part 1</title>
+  <title>Week 7, Part 1</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/cover.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 
-  <body>
 
-    <h1>Week 7, Part 1</h1>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-    <div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
 
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
+</head>
 
-		<button id="my_button" class="btn btn-primary">Button</button>
+<body class="text-center bodycall">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand"></h3>
+        <nav class="nav nav-masthead justify-content-center">
+        </nav>
+      </div>
+    </header>
 
-	</body>
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading hdng">Congratulations On Your Graduation</h1>
+      <div class="row justify-content-center">
+        <div class="col-4 my-4">
+          <img src="images/icon0.jpg" class="img-fluid iconimg">
+        </div>
+      </div>
+      <p class="lead para">We are proud of you son!</p>
+      <p class="lead">
+        <button class="btn btn-lg btn-primary" id="responsebtn">Dad I haven't gratuated yet</button>
+      </p>
+    </main>
+
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <p>This e-card was sent to you by <a href="dad@yourfather.com">dad@yourfather.com</a></a>.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
 
 </html>
