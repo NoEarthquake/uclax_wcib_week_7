@@ -17,7 +17,7 @@ jQuery(function() {
       wishCount = 0;
     }
     $(this).html(btnArray[wishCount]).removeClass(btnStyleArray[prev]).addClass(btnStyleArray[wishCount]);
-		$('.bodycall').css("background-image", "url('../images/bg" + wishCount + ".jpg')");
+		$('.bodycall').css("background-image", "url('images/bg" + wishCount + ".jpg')");
 		$('.iconimg').attr('src','images/icon'+wishCount+'.jpg');
 		$('.hdng').html(headerArray[wishCount]).css("color",colorArray[wishCount]);
 		$('.para').html(paraArray[wishCount]).css("color",colorArray[wishCount]);
